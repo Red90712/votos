@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FiltroService {
-  private apiUrl = 'http://localhost:8080/ProyectoF/api/filtro';
+private apiUrl = 'http://localhost:8080/sistema-votacion/api/filtro';
 
   constructor(private http: HttpClient) {}
 
