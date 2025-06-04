@@ -1,0 +1,15 @@
+<select [(ngModel)]="tipo">
+  <option value="partido">Partido</option>
+  <option value="candidato">Candidato</option>
+</select>
+
+<input [(ngModel)]="nombre" placeholder="Buscar por nombre" />
+
+<button (click)="buscar()">Buscar</button>
+
+<ul>
+  <li *ngFor="let item of resultados">
+    {{ item.nombre }} - Votos: {{ item.votos }}
+  </li>
+</ul>
+

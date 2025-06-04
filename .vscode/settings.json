@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": [
+        "votacion-app\\backend-java\\src"
+    ],
+    "java.project.referencedLibraries": [
+        "votacion-app\\backend-java\\lib\\gson-2.13.1.jar",
+        "votacion-app\\backend-java\\lib\\jakarta.servlet-api-6.1.0.jar",
+        "votacion-app\\backend-java\\lib\\postgresql-42.2.29.jre7.jar"
+    ]
+}
