@@ -11,7 +11,7 @@ export interface Vereda {
   providedIn: 'root'
 })
 export class VeredasService {
-  private apiUrl = 'http://localhost:8080/backend-java/api/veredas'; // ajusta más adelante
+  private apiUrl = 'http://localhost:8080/backend-java/api/veredas';
 
   constructor(private http: HttpClient) {}
 
